@@ -12,12 +12,12 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 ## 2. Visulization of Results
 ### 2.1 ROC Curve:
 <p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/ROC.png" alt="Image" width="600px">
+<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_CPC.png" alt="Image" width="600px">
 <p>
 
 ### 2.2 CAM Maps:
 <p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/CAM.png" alt="Image" width="600px">
+<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/CAM_visualization.png" alt="Image" width="600px">
 <p>
 
 
