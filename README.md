@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHndataset) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
 
 ```
-MonoBox
+ADD
 ├── dataset
 ├── ├── White_light
 ├── ├── ├── adenomas
@@ -55,7 +55,7 @@ MonoBox
 ├── ├── ├── ├── ├── ......
 ├── ├── ├── hyperplastic_lesions
 ├── ├── ├── ├── ├── 011-1.png
-├── ├── ├── ├── ├── 011-1.png
+├── ├── ├── ├── ├── 011-2.png
 ├── ├── ├── ├── ├── ......
 ```
 
