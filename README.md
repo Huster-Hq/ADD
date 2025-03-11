@@ -11,8 +11,14 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 
 ## 2. Visulization of Results
 ### 2.1 ROC Curve:
+#### Public Dataset (CPC-Paried)
 <p align="center">
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_CPC.png" alt="Image" width="600px">
+<p>
+
+#### In-house Dataset
+<p align="center">
+<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_private.png" alt="Image" width="600px">
 <p>
 
 ### 2.2 CAM Maps:
