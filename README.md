@@ -29,7 +29,7 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 
 
 ## 3. Getting Started
-### 3.1 Recommended environment:
+### 3.1 Recommended Environment:
 - Python 3.8+
 - PyTorch 2.1+ 
 - TorchVision corresponding to the PyTorch version
@@ -40,7 +40,7 @@ cd ADD
 pip install -r requirements.txt
 ```
 
-### 3.2 Data preparation
+### 3.2 Data Preparation
 - Downloading the [CPC-Paired dataset](https://github.com/WeijieMax/CPC-Trans) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
 ```
 ADD
