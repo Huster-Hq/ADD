@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 ### 3.2 Data preparation
-Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
+Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1UkLZxZDGyKH3P3TIAra-tORzBEuwx-3E?usp=drive_link) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
 
 ```
 ADD
