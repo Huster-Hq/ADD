@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 ### 3.2 Data preparation
-Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1UkLZxZDGyKH3P3TIAra-tORzBEuwx-3E?usp=drive_link) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
+Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
 
 ```
 ADD
@@ -59,17 +59,10 @@ ADD
 ├── ├── ├── ├── ├── ......
 ```
 
-Note that the details of dataset splitation in the 5-fold experiment can be downloaded in [here]():
+Note that the details of dataset splitation in the 5-fold experiment can be downloaded in [here](https://drive.google.com/drive/folders/1UkLZxZDGyKH3P3TIAra-tORzBEuwx-3E?usp=drive_link):
 
 
-### 3.3 Pretrained model:
-You can download the pretrained model from [Google Drive](https://drive.google.com/file/d/1Kc4utIDjBqquUKk6EfzTsrf0eBRhV7nH/view?usp=drive_link),  and then put it in the `./pretrained/` folder for initialization.
-```
-ADD
-├── pretrained
-```
-
-### 3.4 Training:
+### 3.3 Training:
 Stage 1: pre-traning the NBI classifier:
 ```
 python train_teacher.py
@@ -79,7 +72,7 @@ Stage 2: training the WLI classifier:
 python train.py
 ```
 
-### 3.5 Testing and Evaluation:
+### 3.4 Testing and Evaluation:
 ```
 python test.py
 ```
