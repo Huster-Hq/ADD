@@ -35,7 +35,6 @@ pip install -r requirements.txt
 
 ### 3.2 Data preparation
 Downloading the [CPC-Paired dataset](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
-
 ```
 ADD
 ├── dataset
@@ -59,7 +58,13 @@ ADD
 ├── ├── ├── ├── ├── ......
 ```
 
-Note that the details of dataset splitation in the 5-fold experiment can be downloaded in [here](https://drive.google.com/drive/folders/1UkLZxZDGyKH3P3TIAra-tORzBEuwx-3E?usp=drive_link):
+Note that the details of dataset splitation in the 5-fold experiment can be downloaded in [here](https://drive.google.com/drive/folders/1UkLZxZDGyKH3P3TIAra-tORzBEuwx-3E?usp=drive_link). You need to download these `.txt` files and put them into a newly created folder `split` and the file paths should be arranged as follows:
+```
+ADD
+├── split
+├── ├── xxx.txt
+├── ├── ......
+```
 
 
 ### 3.3 Training:
