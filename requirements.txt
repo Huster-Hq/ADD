@@ -7,3 +7,6 @@ xlrd
 imageio
 scikit-image
 tensorboard
+matplotlib
+scikit-learn
+prettytable
