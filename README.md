@@ -9,7 +9,7 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 <p>
 
 ## 2. Checkpoints
-| Model | CPC-Paired (AUC) | In-house (AUC) | Weights |
+| Model | CPC-Paired (AUC) | In-house (AUC) | Weights (5-folds) |
 | :---- | :------: | :------: | :------: |
 | Ours | 0.936 | 0.826 | [ckpts](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link) |
 | CIC variant | 0.801 | 0.603 | [ckpts](https://drive.google.com/drive/folders/1uppDyiT8EijUbRKGXlHQikJ5QOj3_zdf?usp=drive_link) |
