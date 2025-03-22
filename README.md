@@ -8,9 +8,18 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/method.png" alt="Image" width="600px">
 <p>
 
+## 2. Checkpoints
+| Model | CPC-Paired (AUC) | In-house (AUC) | Weights |
+| :---- | :------: | :------: | :------: |
+| Ours | 0.936 | 0.826 | [ckpts](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link) |
+| CIC variant | 0.801 | 0.603 | [ckpts](https://drive.google.com/drive/folders/1uppDyiT8EijUbRKGXlHQikJ5QOj3_zdf?usp=drive_link) |
+| w/o ADD & SRG | 0.857 | 0.683 | [ckpts](https://drive.google.com/drive/folders/1OwAjYQY7p1MxkZ6pyZJXmp5Nd0wmqmrU?usp=drive_link) |
+| w/o SRG | 0.925 | 0.775 | [ckpts](https://drive.google.com/drive/folders/1hSYyHicQRs9DCwMcnP0uMJngs9-7Y_xw?usp=drive_link) |
+| w/o Bi-A | 0.918 | 0.762 | [ckpts](https://drive.google.com/drive/folders/1O0iNXcGgI1ZJYi4Xhi-MuzzG6h3mpL-a?usp=drive_link) |
+| w/o PSR | 0.928 | 0.786 | [ckpts](https://drive.google.com/drive/folders/1hSYyHicQRs9DCwMcnP0uMJngs9-7Y_xw?usp=drive_link) |
 
-## 2. Visulization of Results
-### 2.1 ROC Curve:
+## 3. Visulization of Results
+### 3.1 ROC Curve:
 #### In-house Dataset
 <p align="center">
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_private.png" alt="Image" width="600px">
@@ -22,14 +31,14 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 <p>
 
 
-### 2.2 CAM Maps:
+### 3.2 CAM Maps:
 <p align="center">
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/CAM_visualization.png" alt="Image" width="600px">
 <p>
 
 
-## 3. Getting Started
-### 3.1 Recommended Environment:
+## 4. Getting Started
+### 4.1 Recommended Environment:
 - Python 3.8+
 - PyTorch 2.1+ 
 - TorchVision corresponding to the PyTorch version
@@ -40,7 +49,7 @@ cd ADD
 pip install -r requirements.txt
 ```
 
-### 3.2 Data Preparation
+### 4.2 Data Preparation
 - Downloading the [CPC-Paired dataset](https://github.com/WeijieMax/CPC-Trans) (public WLI-NBI paired polyp classification dataset). The file paths should be arranged as follows:
 ```
 ADD
@@ -74,7 +83,7 @@ ADD
 ```
 
 
-### 3.3 Training:
+### 4.3 Training:
 Stage 1: pre-traning the NBI classifier:
 ```
 python train_teacher.py
@@ -84,8 +93,8 @@ Stage 2: training the WLI classifier:
 python train.py
 ```
 
-### 3.4 Testing and Evaluation:
+### 4.4 Testing and Evaluation:
 ```
 python test.py
 ```
-You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/file/d/1Qi7tvsnm4bTTKYPPuLCPE12OQjeZ0SC1/view?usp=drive_link), and predict the results by `test.py`.
+You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link), and predict the results by `test.py`.
