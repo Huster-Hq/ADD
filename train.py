@@ -91,6 +91,8 @@ def train(teacher, student,embed_layer_, epochs=1000, is_test=True):
 
     val_acc_best = 0
     space_loss = torch.zeros(1).to(opt.device)
+    loss_ADD_1=torch.zeros(1).to(opt.device)
+    loss_ADD_2=torch.zeros(1).to(opt.device)
     for epoch in range(1, epochs):
         for phase in iter(phases):
             if phase == 'train':
@@ -117,7 +119,7 @@ def train(teacher, student,embed_layer_, epochs=1000, is_test=True):
                     f_tea_att = embed_layer_(f4_tea.detach())
                     logit_loss = sim_loss(pred_nbi.detach(), pred_wli, torch.ones(1).to(opt.device))
 
-                    if epoch<15:
+                    if epoch>15:
                         cam1 = cam(f4_stu, pred_wli, label)
                         cam2 = cam(f4_tea, pred_nbi, label)
 
@@ -136,7 +138,7 @@ def train(teacher, student,embed_layer_, epochs=1000, is_test=True):
                     loss.backward()
                     optimizer_embed_layer.step()
                     optimizer_stu.step()
-                    summary.append((acc_wli.item(), loss.item(), CE_loss.item(), loss_ADD_1.item(),loss_ADD_2.item()))
+                    summary.append((loss.item(), CE_loss.item(), loss_ADD_1.item(),loss_ADD_2.item()))
                     # train_acc
                     train_acc_num = train_acc_num+acc_wli
                     sample_num += wli_img.shape[0]
