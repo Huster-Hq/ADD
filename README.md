@@ -1,5 +1,13 @@
 <div align="center">
-<h2>Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy</h2>
+<h1>ADD</h1>
+<h3>Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy</h3>
+<br>
+<a href="https://scholar.google.com/citations?user=rU2JxLIAAAAJ&hl=en">Qiang Hu</a><sup><span>1, &#42</span></sup>, Qimei Wang</a><sup><span>1, &#42</span></sup>, Jia Chen</a><sup><span>2</span></sup>, Xuantao Ji</a><sup><span>2</span></sup>, <a href="http://faculty.hust.edu.cn/liqiang15/zh_CN/index.htm">Qiang Li</a><sup><span>1, &#8224;</span></sup>, <a href="https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en">Zhiwei Wang</a><sup><span>1, &#8224;</span></sup>
+</br>
+
+<sup>1</sup>  WNLO, HUST, <sup>2</sup>  UIH
+<br>
+(<span>&#42;</span>: equal contribution, <span>&#8224;</span>: corresponding author)
 </div>
 
 ## 1. Overview
