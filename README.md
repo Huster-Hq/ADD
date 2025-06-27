@@ -106,3 +106,14 @@ python train.py
 python test.py
 ```
 You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link), and predict the results by `test.py`.
+
+## Citation
+If you find our paper and code useful in your research, please consider giving us a star ⭐ and citing SALI by the following BibTeX entry.
+```
+@article{hu2025holistic,
+  title={Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy},
+  author={Hu, Qiang and Wang, Qimei and Chen, Jia and Ji, Xuantao and Li, Qiang and Wang, Zhiwei},
+  journal={arXiv preprint arXiv:2505.19319},
+  year={2025}
+}
+```
