@@ -19,12 +19,12 @@ This work implements a novel framework for **enhancing holistic WLI polyp classi
 ## 2. Checkpoints
 | Model | CPC-Paired (AUC) | In-house (AUC) | Weights (5-folds) |
 | :---- | :------: | :------: | :------: |
-| Ours | 0.936 | 0.826 | [ckpts](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link) |
-| CIC variant | 0.801 | 0.603 | [ckpts](https://drive.google.com/drive/folders/1uppDyiT8EijUbRKGXlHQikJ5QOj3_zdf?usp=drive_link) |
-| w/o ADD & SRG | 0.857 | 0.683 | [ckpts](https://drive.google.com/drive/folders/1OwAjYQY7p1MxkZ6pyZJXmp5Nd0wmqmrU?usp=drive_link) |
-| w/o SRG | 0.925 | 0.775 | [ckpts](https://drive.google.com/drive/folders/1hSYyHicQRs9DCwMcnP0uMJngs9-7Y_xw?usp=drive_link) |
-| w/o Bi-A | 0.918 | 0.762 | [ckpts](https://drive.google.com/drive/folders/1O0iNXcGgI1ZJYi4Xhi-MuzzG6h3mpL-a?usp=drive_link) |
-| w/o PSR | 0.928 | 0.786 | [ckpts](https://drive.google.com/drive/folders/1hSYyHicQRs9DCwMcnP0uMJngs9-7Y_xw?usp=drive_link) |
+| Ours | 0.936 | 0.826 | [ckpts](https://drive.google.com/drive/folders/1ohYcGtadxcfevFdtLmDsfntqxkdrQR2c?usp=drive_link) |
+| CIC variant | 0.801 | 0.603 | [ckpts](https://drive.google.com/drive/folders/1OofX_Txw-_nEUVVhFNNmltfNo1REEw_L?usp=drive_link) |
+| w/o ADD & SRG | 0.857 | 0.683 | [ckpts](https://drive.google.com/drive/folders/1bYGm3jm2LBIWna16y9GCOl_2HELoKYHD?usp=drive_link) |
+| w/o SRG | 0.925 | 0.775 | [ckpts](https://drive.google.com/drive/folders/1DGt-KsndfDP_fsgIzK5ZkUjc1JS-R16K?usp=drive_link) |
+| w/o Bi-A | 0.918 | 0.762 | [ckpts](https://drive.google.com/drive/folders/12kqBsMzmgjs_ctETKoVPEsxbHTsyR6bw?usp=drive_link) |
+| w/o PSR | 0.928 | 0.786 | [ckpts](https://drive.google.com/drive/folders/1cJ-kmwF0j0hSHgWcOUwz0YVxz7Ywia58?usp=drive_link) |
 
 ## 3. Visulization of Results
 ### 3.1 ROC Curve:
@@ -105,7 +105,7 @@ python train.py
 ```
 python test.py
 ```
-You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/drive/folders/18k-cnyyQ8rO_OAzg5RXmnk4PyhDqrVcg?usp=drive_link), and predict the results by `test.py`.
+You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/drive/folders/1ohYcGtadxcfevFdtLmDsfntqxkdrQR2c?usp=drive_link), and predict the results by `test.py`.
 
 ## Citation
 If you find our paper and code useful in your research, please consider giving us a star ⭐ and citing ADD by the following BibTeX entry.
